@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app'
 import Head from "next/head";
 
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -8,7 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
        <title>Send Virtual Hugs</title>
        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
       </Head>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       <style jsx global>{`
       a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
           margin: 0;
