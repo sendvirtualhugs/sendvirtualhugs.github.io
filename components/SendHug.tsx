@@ -22,7 +22,7 @@ const Heading = styled.div`
 export default function Component() {
 
   return (
-    <Section>
+    <Section id="send-hugs">
         <Heading>Send Virtual Hugs</Heading>
       <form>
         Title: <br/>    

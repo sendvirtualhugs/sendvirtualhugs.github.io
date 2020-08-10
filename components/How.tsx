@@ -5,7 +5,7 @@ const Section = styled.section`
   background-image: url("/assets/images/mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  height: 400px;
   background-position: 0px 0px;
   width: 100%;
   display: grid;
