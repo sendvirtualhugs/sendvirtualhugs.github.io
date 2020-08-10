@@ -24,18 +24,6 @@ const Heading = styled.div`
   padding-bottom: 20px;
 `;
 
-const SubHeading = styled.div`
-  font-size: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
-`;
-
-const Paragraph = styled.p`
-  font-size: 20px;
-  margin: 10px;
-  text-align: justify;
-`;
-
 const StepHeader = styled.div`
   font-size: 25px;
   font-weight: bold;

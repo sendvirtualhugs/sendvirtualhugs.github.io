@@ -10,6 +10,7 @@ const Section = styled.section`
   padding: 50px;
   text-align: center;
   padding-top: 200px;
+  color: white;
 `;
 
 const HeadingTop = styled.h3`
