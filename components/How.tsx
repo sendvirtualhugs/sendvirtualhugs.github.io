@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
-  background-image: url("/assets/images/mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
